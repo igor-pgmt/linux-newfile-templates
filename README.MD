@@ -5,7 +5,7 @@ Installation:
 
 ```bash
 git clone https://github.com/igor-pgmt/linux-newfile-templates.git
-mv linux-newfile-templates/README.MD.temp linux-newfile-templates/README.MD.MD
+rm linux-newfile-templates/README.MD
 mv linux-newfile-templates/* ~/Templates
 sudo rm -R linux-newfile-templates/
 ```
